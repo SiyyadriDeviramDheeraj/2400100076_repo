@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Fitness</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1c1c1c; /* 70% black */
+            color: white;
+        }
+        header {
+            background-color: #222;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+        }
+        nav {
+            display: flex;
+            justify-content: flex-end;
+            background: #333;
+            padding: 10px;
+        }
+        nav a {
+            color: #e6b800; /* 10% yellow */
+            padding: 10px 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background: #f1c40f; /* 20% yellow */
+            color: black;
+        }
+        .motivation {
+            text-align: center;
+            font-size: 28px;
+            font-weight: bold;
+            margin: 20px auto;
+            color: #f1c40f; /* 20% yellow */
+            width: 80%;
+        }
+        .hero {
+            background: url('https://source.unsplash.com/1600x900/?gym,fitness') no-repeat center/cover;
+            height: 600px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 32px;
+            font-weight: bold;
+        }
+        .container {
+            padding: 20px;
+            text-align: center;
+        }
+        .services, .contact {
+            background: #f1c40f; /* 20% yellow */
+            padding: 20px;
+            margin: 20px auto;
+            width: 80%;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            color: black;
+        }
+        .photo {
+            text-align: center;
+            margin: -200px auto 20px auto; /* Move photo downwards */
+        }
+        .photo img {
+            width: 1200px; /* Decreased size */
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .login {
+            background: rgba(0, 0, 0, 0.9);
+            padding: 60px;
+            width: 50%;
+            margin: 150px auto; /* Lower the login box */
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            position: relative;
+            color: white;
+        }
+        .login h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+        .login input {
+            width: 80%;
+            padding: 20px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+        .login button {
+            background: #f1c40f; /* 20% yellow */
+            color: black;
+            padding: 20px 30px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 20px;
+            margin: 10px;
+        }
+        .login button:hover {
+            background: #e67e22;
+        }
+        .register-text {
+            margin-top: 20px;
+        }
+        .register-text a {
+            color: #f1c40f;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .register-text a:hover {
+            color: #e67e22;
+        }
+    </style>
+</head>
+<body>
+    <header>Gym Fitness</header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+        <a href="#login">Login</a>
+    </nav>
+    <div class="motivation">"Push yourself because no one else is going to do it for you."</div>
+    <div class="hero"></div>
+    <div class="container">
+        <div class="photo">
+            <img src="gym_project.jpg" alt="Gym Workout">
+        </div>
+        <div class="services" id="services">
+            <h2>Our Services</h2>
+            <p>We offer personal training, group fitness, cardio sessions, and much more.</p>
+        </div>
+        <div class="contact" id="contact">
+            <h2>Contact Us</h2>
+            <p>Email: info@gymfitness.com | Phone: +123 456 7890</p>
+        </div>
+        <div class="login" id="login">
+            <h2>Login</h2>
+            <form>
+                <input type="text" placeholder="Username" required>
+                <input type="password" placeholder="Password" required>
+                <button type="submit">Login</button>
+            </form>
+            <div class="register-text">
+                <p>Don't have an account? <a href="#register">Register</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

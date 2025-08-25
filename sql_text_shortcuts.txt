@@ -1,0 +1,18 @@
+postgres=# create database klef3;
+CREATE DATABASE
+postgres=# \c klef3
+You are now connected to database "klef3" as user "postgres".
+klef3=# \t
+Tuples only is on.
+klef3=# \d
+Did not find any relations.
+klef3=# \l
+ klef3     | postgres | UTF8     | libc            | English_India.1252 | English_India.1252 |            |           |
+ postgres  | postgres | UTF8     | libc            | English_India.1252 | English_India.1252 |            |           |
+ template0 | postgres | UTF8     | libc            | English_India.1252 | English_India.1252 |            |           | =c/postgres          +
+           |          |          |                 |                    |                    |            |           | postgres=CTc/postgres
+ template1 | postgres | UTF8     | libc            | English_India.1252 | English_India.1252 |            |           | =c/postgres          +
+           |          |          |                 |                    |                    |            |           | postgres=CTc/postgres
+
+
+klef3=#
