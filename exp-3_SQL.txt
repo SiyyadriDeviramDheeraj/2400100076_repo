@@ -1,1 +1,0 @@
-select * from BOATS where color='Red' or color='Green';
